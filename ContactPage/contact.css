@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    
+}
+header object{
+    width: 100%;
+    height: 50px;
+    overflow-y: auto !important;
+}
+.body{
+    max-width: 100%;
+    max-height: 100%;
+}
+.back-img img{
+    margin-top: -5px;
+    position:sticky;
+    max-width: 100%;
+}
+
+.body .heading h1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFF00;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 850px;
+}
+.body #map{
+    width: 50%; 
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+}
+
+#contact-form{
+    position: absolute;
+    left: 80px;
+    top: 160px;
+    height: 50%;
+}
+input[type="text"],
+input[type="email"]{
+    width: 70%;
+    height: 5%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Raleway', sans-serif;
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+input[type="submit"]:hover{
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+}
+
+footer{
+    width: 99.9%;
+    height: 150px;
+    position: absolute;
+    bottom: -300px;
+    background-color: black;
+    border: 1px solid white;
+}
+.social-media{
+    float: right;
+    margin-top: 30px;
+}
+.social-media img{
+    width:50px;
+    height: 50px;
+    padding: 20px;
+}
+.contact-content h2{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 30px; 
+}

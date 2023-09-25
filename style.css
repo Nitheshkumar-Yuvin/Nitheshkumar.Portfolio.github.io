@@ -1,0 +1,76 @@
+@font-face {
+    font-family: ;
+    src: url('');
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+/*Header*/
+/*header object{
+    width: 100%;
+    height: 50px;
+    overflow-y: none !important;
+}*/
+header object{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+}
+
+/*Body*/
+
+
+
+.back-img img{
+    max-width: 100%;
+}
+
+.body .bold-text h1{
+    position: fixed;
+    top: 80px;
+    left: 400px;
+    right: 400px;
+    font-family: 'Phudu', cursive;
+    color: #FDFEFE;
+    height: 50% !important;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.body .small-text h3{
+    position: fixed;
+    top: 320px;
+    left: 400px;
+    right: 400ox;
+    color: #AAB7B8;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+.body #contact-body a{
+    width: 15%;
+    height: 30px;
+    padding: 10px 5px;
+    text-align: center;
+    color: #FFFF00 !important;
+    border: 2px solid #FFFF00;
+    position: absolute;
+    left: 500px;
+    right: 500px;
+    bottom: -240px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.body #contact-body a:hover{
+    color: black !important;
+    background-color: #FFFF00;
+}

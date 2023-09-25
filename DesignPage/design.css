@@ -1,0 +1,111 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    
+}
+header object{
+    width: 100%;
+    height: 50px;
+    overflow-y: auto !important;
+}
+
+.body{
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+}
+.back-img img{
+    margin-top: -5px;
+    position:sticky;
+    max-width: 100%;
+}
+
+.body .heading h1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFF00;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 850px;
+}
+
+.body .content h2{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 550px;
+    line-height: 27px;
+}
+.body .routines{
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    border: 5px solid #FFFFFF;
+}
+.body .routine-img img{
+    width:400px;
+    height: 200px;
+    padding: 20px;
+}
+.routines .routine-quotes h2{
+    font-family: 'Raleway', sans-serif;
+    color: #FFD700;
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0px 0px 165px;
+    padding-bottom: 20px;
+}
+
+.body .content h1{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFD700;
+    padding: 20px;
+    border: 5px solid #FFFFFF;
+    font-size: 40px;
+    width: 350px;
+    font-weight: lighter;
+}
+.design-containers{
+    background-color: black;
+    position: absolute;
+    bottom: -300px;
+    left: 15px;
+    width: 97%;
+}
+.design-containers img{
+    width: 200px;
+    height: 200px;
+    margin-top: -20px;
+    padding: 20px 51px;
+}
+.design-containers h1{
+    color: #FFD700;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.body .final-content h1{
+    position: absolute;
+    bottom: -365px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #FFD700;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
