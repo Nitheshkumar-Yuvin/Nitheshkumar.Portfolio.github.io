@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Oswald;
+    src: url(/Fonts/Oswald/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(/Fonts/Raleway/Raleway-Regular.ttf);
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -29,7 +38,7 @@ header object{
     top: 150px;
     left: 50px;
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
     color: #FFFFFF;
     font-size: 18px;
     width: 550px;
@@ -41,7 +50,7 @@ header object{
     position: absolute;
     top: 50px;
     left: 50px;
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald;
     color: #FFFF00;
     font-weight: bolder;
     font-size: 50px;
@@ -125,21 +134,11 @@ header object{
     }
 }
 
-/*.whole-animation{
-    position: relative;
-    background-color: black;
-    width: 95%;
-    height: 230px;
-    bottom: 400px;
-    margin: 0px 30px;
-    border: 5px solid white;
-}*/
-
 .image-animation {
     width: 97%;
     white-space: nowrap;
     overflow: hidden;
-    position: absolute; /* Add this to enable absolute positioning of images */
+    position: absolute;
     bottom: -200px;
     background-color: whitesmoke;
     border: 1px solid white;
@@ -152,7 +151,7 @@ header object{
     padding: 10px 70px;
     display: inline-block;
     vertical-align: middle;
-    animation: horizontalSlide 40s linear infinite; /* Animation for all images */
+    animation: horizontalSlide 40s linear infinite;
 }
 
 
@@ -178,7 +177,7 @@ header object{
     left: 300px;
     width: 700px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway;
     color: #FFD700;
     font-size: 30px;
 }

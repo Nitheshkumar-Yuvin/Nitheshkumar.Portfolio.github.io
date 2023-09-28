@@ -1,10 +1,10 @@
 @font-face {
     font-family: Oswald;
-    src: url(/Fonts/Oswald/static/Oswald-Regular.ttf);
+    src: url(/Fonts/Oswald/Oswald-Regular.ttf);
 }
 @font-face {
     font-family: Raleway;
-    src: url(/Fonts/Raleway/static/Raleway-Regular.ttf);
+    src: url(/Fonts/Raleway/Raleway-Regular.ttf);
 }
 
 html{
