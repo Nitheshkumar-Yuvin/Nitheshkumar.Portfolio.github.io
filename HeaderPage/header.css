@@ -1,3 +1,7 @@
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(/Fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
 html{
     scroll-behavior: smooth;
 
@@ -29,7 +33,7 @@ header{
     height: 20px;
     text-align: center;
     color: black; 
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: RobotoCondensed;
     font-size: 30px;
 }
 
