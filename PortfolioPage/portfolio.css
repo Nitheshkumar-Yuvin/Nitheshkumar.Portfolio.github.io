@@ -212,7 +212,7 @@ header object{
         width: 300px;
     }
     .image-animation{
-        width: 90%;
+        width: 89%;
         bottom: -500px;
     }
     .image-animation img {
@@ -220,7 +220,7 @@ header object{
     }
     .body .quote-content h1{
         bottom: -680px;
-        left: 40px;
+        left: 25px;
         width: 300px;
     }
 }

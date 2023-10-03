@@ -146,8 +146,8 @@ header object{
     }
     .body .routines{
         top: 525px;
-        left: 0px;
-        right: 0px;
+        left: 9px;
+        right: 9px;
         width: 340px;
     }
     .body .routine-img img{
@@ -163,8 +163,8 @@ header object{
         background-color: black;
         position: absolute;
         bottom: -1030px;
-        left: 15px;
-        right: 15px;
+        left: 18px;
+        right: 18px;
         width: 90%;
     }
     .design-containers img{
