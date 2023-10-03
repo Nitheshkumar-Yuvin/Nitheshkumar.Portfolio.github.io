@@ -19,3 +19,21 @@ buttons.forEach(function(button) {
         localStorage.setItem("activeButtonIndex", index);
     });
 });
+
+//MenuBar
+
+var menuBtn = document.getElementById("bar")
+var xBtn = document.getElementById("x")
+var mobHeader = document.getElementById("active-element")
+
+menuBtn.addEventListener("click",()=>{
+    menuBtn.classList.add("bar-action")
+    xBtn.classList.add("x-action")
+    mobHeader.classList.add("mobile-header")
+})
+
+xBtn.addEventListener("click",()=>{
+    menuBtn.classList.remove("bar-action")
+    xBtn.classList.remove("x-action")
+    mobHeader.classList.remove("mobile-header")
+})

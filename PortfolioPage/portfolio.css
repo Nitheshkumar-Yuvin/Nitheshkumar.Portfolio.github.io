@@ -21,7 +21,6 @@ header object{
     width: 100%;
     height: 50px;
     overflow-y: auto !important;
-    position: fixed;
 }
 
 .body{
@@ -29,9 +28,14 @@ header object{
     max-width: 100%;
     max-height: 100%;
 }
-.back-img img{
-    position:sticky;
+.lap-img img{
     max-width: 100%;
+}
+
+.mob-img,.mob-img img{
+    visibility: hidden;
+    width: 0;
+    height: 0;
 }
 .body .content h2{
     position: absolute;
@@ -54,7 +58,7 @@ header object{
     color: #FFFF00;
     font-weight: bolder;
     font-size: 50px;
-    width: 850px;
+    width: 200px;
 }
 
 
@@ -182,3 +186,40 @@ header object{
     font-size: 30px;
 }
 
+@media (max-width:370px) {
+    .lap-img img{
+        visibility: hidden;
+    }
+    .mob-img img{
+        visibility: visible;
+        width: 100%;
+        height: 290%;
+        position: absolute;
+        top: 50px;
+    }
+    .right-animation{
+        right: 90px;
+        left: 90px;
+        top: 230px;
+    }
+    .body .heading h1{
+        left: 40px;
+    }
+    .body .content h2{
+        top: 460px;
+        left: 40px;
+        width: 300px;
+    }
+    .image-animation{
+        width: 90%;
+        bottom: -750px;
+    }
+    .image-animation img {
+        padding: 10px 30px;
+    }
+    .body .quote-content h1{
+        bottom: -950px;
+        left: 40px;
+        width: 300px;
+    }
+}

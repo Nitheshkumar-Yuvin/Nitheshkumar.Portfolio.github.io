@@ -21,6 +21,7 @@ header{
     width: 100%;
     height: 50px;
     background-color: #20B2AA;
+    overflow: hidden !important;
 }
 .center-header{
     position: fixed;
@@ -39,11 +40,68 @@ header{
 
 .logo img{
     position: fixed;
-    top: -29px;
-    left: 5px;
-    max-height: 250%;
+    top: 2.5px;
+    left: 30px;
+    width: 90px;
+    height: 45px;
 }
 
 .center-header .active,.center-header a:hover{
     color: #FFFF00;
+}
+
+.menu-icon{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+@media (max-width:370px) {
+    body{
+        width: 100%;
+    }
+    .center-header{
+        visibility: hidden;
+    }
+    .mobile-header{
+        visibility: visible;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 97.3%;
+        height: 82.1%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.849);
+        padding-top: 30px;
+    }
+    .mobile-header a{
+        display: block;
+        padding: 30px;
+        color: aliceblue;
+    }
+    .menu-icon{
+        visibility: visible;
+        width: auto;
+        height: auto;
+    }
+    .menu-icon .bar a{
+        float: right;
+        margin-right: 30px;
+    }
+    .menu-icon .bar-action{
+        position: absolute;
+        top: -1000px;
+        background-color: black;
+    }
+    .menu-icon .x a{
+        visibility: visible;
+        float: right;
+        margin-right: 30px;
+        position: relative;
+        top: -1000px;
+    }
+    .menu-icon .x-action a{
+        position: inherit;
+        top: 0px;
+    }
 }
