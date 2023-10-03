@@ -193,7 +193,7 @@ header object{
     .mob-img img{
         visibility: visible;
         width: 100%;
-        height: 290%;
+        height: 220%;
         position: absolute;
         top: 50px;
     }
@@ -212,13 +212,13 @@ header object{
     }
     .image-animation{
         width: 90%;
-        bottom: -750px;
+        bottom: -600px;
     }
     .image-animation img {
         padding: 10px 30px;
     }
     .body .quote-content h1{
-        bottom: -950px;
+        bottom: -780px;
         left: 40px;
         width: 300px;
     }
