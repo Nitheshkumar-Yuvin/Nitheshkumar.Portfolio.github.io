@@ -92,14 +92,14 @@ header object{
     .mob-img img{
         visibility: visible;
         width: 100%;
-        height: 94%;
+        height: 93.4%;
         position: absolute;
         top: 50px;
         z-index: 0;
     }
     .body .bold-text h1{
         position: fixed;
-        top: 40px;
+        top: 100px;
         left: 30px;
         right: 30px;
         width: 300px;
@@ -110,7 +110,7 @@ header object{
     }
     .body .small-text h3{
         position: fixed;
-        top: 280px;
+        top: 340px;
         left: 60px;
         right: 60px;
         font-size: 20px;
@@ -124,6 +124,6 @@ header object{
         position: absolute;
         left: 80px;
         right: 80px;
-        bottom: 100px;
+        bottom: 150px;
     }
 }
