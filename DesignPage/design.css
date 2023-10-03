@@ -131,40 +131,40 @@ header object{
     .mob-img img{
         visibility: visible;
         width: 100%;
-        height: 295%;
+        height: 270%;
         position: absolute;
         top: 50px;
     }
     .body .heading h1{
-        left: 40px;
+        left: 25px;
     }
     .body .content h2{
         top: 130px;
-        left: 40px;
-        right: 40px;
+        left: 25px;
+        right: 25px;
         width: 300px;
     }
     .body .routines{
         top: 525px;
         left: 10px;
         right: 10px;
-        width: 350px;
+        width: 340px;
     }
     .body .routine-img img{
         width:300px;
-        padding: 25px;
+        padding: 20px;
     }
     .routines .routine-quotes h2{
         font-size: 18px;
         text-align: left;
-        padding: 0 110px 0 120px
+        padding: 0 100px 0 120px
     }
     .design-containers{
         background-color: black;
         position: absolute;
-        bottom: -1150px;
-        left: 20px;
-        right: 20px;
+        bottom: -1080px;
+        left: 15px;
+        right: 15px;
         width: 90%;
     }
     .design-containers img{
