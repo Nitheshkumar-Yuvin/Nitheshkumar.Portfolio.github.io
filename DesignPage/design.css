@@ -146,8 +146,8 @@ header object{
     }
     .body .routines{
         top: 525px;
-        left: 9px;
-        right: 9px;
+        left: 5px;
+        right: 5px;
         width: 340px;
     }
     .body .routine-img img{
